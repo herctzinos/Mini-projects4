@@ -61,8 +61,7 @@ public class Voting_Main {
         System.out.println("O ilias pire " + Database.ilias_c.size() + " psifous apo tous " + Database.ilias_c);
         System.out.println("O iraklis pire " + Database.iraklis_c.size() + " psifous apo tous " + Database.iraklis_c);
 
-        Candidate c=new Candidate();
-        System.out.println("O nikitis einai o" +c.whoisthewinner());
+        System.out.println("O nikitis einai o " +new Candidate().whoisthewinner());
         // System.out.println("O nikitis einai o "+Math.max(Database.panagos_c.size(),Math.max(Database.ilias_c.size(),Database.iraklis_c.size())));
         System.out.println("\nPsifisan sinolika oi " + Voter.voters);
 

@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class Candidate extends Person {
 
-    private static Set<String> psifoi = new HashSet<String>();
+    private  Set<String> psifoi = new HashSet<String>();
     private int max;
     private String winner;
 

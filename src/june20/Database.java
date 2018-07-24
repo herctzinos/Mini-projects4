@@ -8,7 +8,7 @@ public class Database {
      static Set<String> candidates = new HashSet<String>();
      static Set<String> panagos_c = new HashSet<String>();
      static Set<String> ilias_c = new HashSet<String>();
-     static Set<String> iraklis_c = new HashSet<String>();
+      static Set<String> iraklis_c = new HashSet<String>();
 
     public static void candidatesinit() {
 
