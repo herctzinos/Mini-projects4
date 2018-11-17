@@ -1,4 +1,4 @@
-package june20;
+package Mini;
 
 import java.util.Iterator;
 

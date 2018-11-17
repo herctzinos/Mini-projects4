@@ -1,4 +1,4 @@
-package june20;
+package Mini;
 
 import java.util.Scanner;
 
@@ -13,7 +13,6 @@ public class Voting_Main {
     public static void main(String[] args) {
         Ekloges e = new Ekloges();
         Database.candidatesinit();
-        Database d = new Database();
 
         while (flag) {
             while (id == 0) {
@@ -54,7 +53,6 @@ public class Voting_Main {
             } else {
                 flag = false;
             }
-            //sc4.close();
             id = 0;
         }
         System.out.println("O panagos pire " + Database.panagos_c.size() + " psifous apo tous " + Database.panagos_c);
@@ -62,8 +60,7 @@ public class Voting_Main {
         System.out.println("O iraklis pire " + Database.iraklis_c.size() + " psifous apo tous " + Database.iraklis_c);
 
         System.out.println("O nikitis einai o " +new Candidate().whoisthewinner());
-        // System.out.println("O nikitis einai o "+Math.max(Database.panagos_c.size(),Math.max(Database.ilias_c.size(),Database.iraklis_c.size())));
         System.out.println("\nPsifisan sinolika oi " + Voter.voters);
-        System.out.println("");
+        
     }
 }
